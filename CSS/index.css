@@ -109,4 +109,41 @@ footer{
     height:500px;
     width:100%;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    flex-direction: column;
+    color: black;
+   
+}
+.elements{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    width: 90%;
+    height: 600px;
+    background-color: blueviolet;
+
+}
+
+.logo_cross{
+    height:300px;
+    width: 300px;
+    background-color: yellow;
+}
+
+.social{
+    height: 100px;
+    width: 500px;
+    background-color: violet;
+}
+.nav_itens{
+    height: 300px;
+    width: 200px;
+    background-color: green;
+}
+
+.copyright{
+    align-items: center;
+    
 }
