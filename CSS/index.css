@@ -1,0 +1,112 @@
+body{
+    background-color: #151515;
+    color:white
+}
+
+header{
+    height: 300px;
+    background-color: aqua;
+}
+
+.intro{
+    height: 700px;
+    background-color: gray;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+
+.video{
+    height: 435px;
+    width: 773px;
+    background-color: red;
+}
+.intro-txt{
+    width: 458px;
+    height: 427px;
+}
+.team{
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+.team-pic{
+    height: 815px;
+    width: 1365px;
+    background-color: greenyellow;
+}
+
+.cortiça-bord{
+    height:2093px;
+    width:100%;
+    background-color:#ffab45;
+    position: relative;
+}
+
+.post-it{
+    height:400px;
+    width:400px;
+    background-color:#ECDF64;
+    position:absolute;
+}
+
+.post-it#one{
+    left: 20%;
+    top:200px;
+}
+.post-it#two{
+    left: 60%;
+    top:400px;
+}
+.post-it#tree{
+    left: 20%;
+    top:700px;
+}
+
+.treco_de_cortar{
+    height:1135px;
+    width:100%;
+    background-color: #4893A0;
+}
+
+.polaroids{
+    height:1135px;
+    width:100%;
+    position: relative;
+
+}
+.polaroid{
+    height:400px;
+    width:400px;
+    background-color: white;
+    position:absolute;
+}
+.polaroid#one{
+    left: 20%;
+    top:200px;
+}
+
+.polaroid#two{
+    left: 60%;
+    top:500px;
+}
+
+.polaroid#tree{
+    left: 20%;
+    top:700px;
+}
+
+.miranha{
+    height:200px;
+    width:200px;
+    background-color: red;
+    position:absolute;
+    bottom: 0;
+    right:0;
+}
+
+footer{
+    height:500px;
+    width:100%;
+    background-color: white;
+}
