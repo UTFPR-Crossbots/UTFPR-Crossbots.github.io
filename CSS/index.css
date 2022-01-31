@@ -31,8 +31,8 @@ header{
     justify-content: space-around;
 }
 .box{
-    height: calc((18vh - 8vh));
-    width: calc((100% - 18vh)/5);
+    height: calc((18vh - 13vh));
+    width: calc((100% - 18vw)/5);
     background-color: pink;
 }
 .intro{
