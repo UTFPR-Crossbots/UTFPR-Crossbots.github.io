@@ -38,12 +38,22 @@ header{
     width: calc((100% - 18vw)/5);
     background-color: pink;
 }
-.estante{
-    width: 100%;
+.estante_perp{
+    width: 100vw;
     height: auto;
     position: absolute;
-    top:-9vh;
-    z-index: -2;;
+    top:11vh;
+    left:-20px;
+
+    z-index: -2;
+}
+.estante_front{
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top:19vh;
+    left:-40px;
+   
 }
 .intro{
     height: 80vh;
