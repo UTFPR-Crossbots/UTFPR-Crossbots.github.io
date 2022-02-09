@@ -10,51 +10,68 @@ body{
 }
 /* tamanho do cabeçalho e alinha os itens no eixo y */
 header{
-    height: 20vh;
-    /* background-color: aqua; */
+    height: 22vh;
+    background-color: aqua;
     position: relative;
+    margin: 0;
+    padding: 0;
+    background: url('../midia/images/Estante_Perspectiva.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:fill;
+    overflow: hidden;
+    
+    
 }
 .front{
+    height: 18vh;
+    width: 100%;
     display: flex;
     align-items: center;
-}
-.logo{ 
+    /* background-color: blueviolet; */
     overflow: hidden;
+    position: relative;
+    
+}
+.logo img{ 
+    overflow: hidden;
+    width: 40vh;
+    height: auto;
 }
 .cabecalho{
-    height:18vh;
-    width: calc(100% - 18vh);
-   
-    /* background-color: purple; */
-    
+    height:23vh;
+    width:100%;
     top: 1vh;
     right:5vw;
+    
     display: flex;
     align-items: center;
     justify-content: space-around;
+   
 }
 .box{
     height: calc((18vh - 13vh));
     width: calc((100% - 18vw)/5);
-    background-color: pink;
+    /* background-color: pink; */
 }
-.estante_perp{
-    width: 100vw;
-    height: auto;
-    position: absolute;
-    top:11vh;
-    left:-20px;
+ #box_one{
+  padding-bottom : 10px;
 
-    z-index: -2;
 }
-.estante_front{
-    width: 100vw;
-    height: auto;
-    position: absolute;
-    top:19vh;
-    left:-40px;
+.estante_frente{
+    height: 80px;
+    width: 100%;
+    background: url('../midia/images/Estante_Frontal.svg');
+    
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:cover;
+}
+    
+
+    
    
-}
+
 .intro{
     height: 80vh;
     
@@ -155,8 +172,9 @@ video{
     background-repeat: no-repeat; 
     background-size: cover;   
     position:absolute;
-    bottom: -20vh;
+    bottom: -15vh;
     right:0;
+    z-index: -1;
 }
 
 footer{
@@ -192,10 +210,10 @@ footer{
     background-size: cover; 
 }
 
-.social{
+.redes_sociais{
     height: 100px;
     width: 358px;
-    background: url('../midia/images/Redes_Sociais.svg');
+   
     background-repeat: no-repeat; 
     background-size: cover; 
 
