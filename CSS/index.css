@@ -125,8 +125,10 @@ video{
 }
 .madeira{
     width: 100%;
-    height: 10vh;
-    background:url('../midia/images/Madeira.svg') ;
+    position: absolute;
+    z-index: +1;
+    
+   
 }
 .cortiça-bord{
     
@@ -140,6 +142,7 @@ video{
     flex-wrap: wrap;
     gap: 20px;
     padding: 2vw;
+    padding-bottom: 500px;
 
 }
 
