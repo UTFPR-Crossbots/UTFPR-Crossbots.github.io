@@ -203,15 +203,13 @@ footer{
 }
 
 .logo_cross{
-    height:300px;
-    width: 300px;
-    background: url('../midia/images/Marca_Cross.svg');
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    height:40vh;;
+    width:40vh;
+    
 }
 
 .redes_sociais{
-    height: 100px;
+    height: auto;
     width: 358px;
    
     background-repeat: no-repeat; 
