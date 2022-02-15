@@ -127,6 +127,8 @@ video{
     width: 100%;
     position: absolute;
     z-index: +1;
+    height: 10vh;
+    background:url('../midia/images/Madeira.svg') ;
     
    
 }
@@ -140,29 +142,46 @@ video{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 2vw;
-    padding-bottom: 500px;
+    /* gap: 20px; */
+    padding-top: 10vw;
+    padding-bottom:0 ;
+    
+    
 
 }
-
-.post-it{
+.post_box{
     height:40vh;
     width:40vh;
+}
+.post-it{
+    height:35vh;
+    width:35vh;
     background: url('../midia/images/Post_It.svg');
     box-shadow: 10px 10px 5px black;
     background-color:#ECDF64;
-    
+      
 }
 
-
+.trena{
+    width: 110vw;
+    position: absolute;
+    z-index: +1;
+    /* deixar isso dinamico pelo js   */
+    top:1000px; 
+     
+    
+   
+}
 
 .treco_de_cortar{
     height:1800px;
     width:100%;
     background: url('../midia/images/Mesa_de_Corte.svg');
     background-repeat: no-repeat; 
-    background-size: cover;    
+    background-size: cover; 
+    margin-top:10vw;
+    background-color: #151515;
+    
 }
 
 .polaroids{
@@ -176,21 +195,30 @@ video{
     padding: 2vw;
 
 }
-.polaroid{
+.polaroid1{
     height:40vh;
     width:40vh;
     background-color: white;
-    background: url('../midia/images/Polaroids.svg');
+    background: url('../midia/images/Polaroid 1.svg');
     background-repeat: no-repeat; 
-    background-size: cover;    
+    background-size: cover;  
+      
 }
     
-
+.polaroid2{
+    height:40vh;
+    width:40vh;
+    background-color: white;
+    background: url('../midia/images/Polaroid 2.svg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    z-index: -2;   
+}
 
 
 .miranha{
-    height:400px;
-    width:400px;
+    height:20vw;
+    width:20vw;
     background: url('../midia/images/Miranha.svg');
     background-repeat: no-repeat; 
     background-size: cover;   
